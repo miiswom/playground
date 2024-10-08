@@ -1,0 +1,21 @@
+{
+  "name": "my-awesome-package",
+  "version": "1.0.0",
+  "description": "Trying out the npm CLI questionnaire",
+  "main": "two.js",
+  "scripts": {
+    "test": "na"
+  },
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
