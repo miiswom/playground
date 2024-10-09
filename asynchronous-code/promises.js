@@ -81,3 +81,15 @@ async function addAsync(x) {
 }
 
 console.log(addAsync(20).then(value => console.log(value))) // 140
+
+// Example from Youtube Video 'JavaScript Visualized - Promise Execution'
+
+new Promise((resolve) => {
+  console.log(1);
+  resolve(2)
+}).then(result => console.log(result))
+
+// Will output:
+// 1
+// 3
+// 2
