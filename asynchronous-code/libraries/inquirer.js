@@ -15,7 +15,7 @@ const questions = [
     name: 'last_name',
     message: "What's your last name",
     default() {
-      return 'Doe';
+      return 'Dope';
     },
   },
   {
