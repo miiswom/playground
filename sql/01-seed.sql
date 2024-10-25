@@ -107,7 +107,7 @@ VALUES
 (2, 7);
 
 
-SELECT songs.song_title, COUNT(playlists.playlist_id)
+SELECT songs.song_title, COUNT(playlists.playlist_id) /* <--- COUNT times it appears in a playlist*/
 -- FROM songs /* <--- LEFT TABLE */
 FROM songs
 LEFT JOIN songs_playlists
